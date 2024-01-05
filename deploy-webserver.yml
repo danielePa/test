@@ -1,0 +1,9 @@
+---
+- name: Install nginx
+  ansible.builtin.package:
+    name: nginx
+    state: present
+- name: Install httpd
+  ansible.builtin.package:
+    name: httpd
+    state: present
